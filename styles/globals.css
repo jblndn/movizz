@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+.main{
+  width: 700px;
+  background-color: lightgrey;
+  margin: 0 auto;
+  padding: 50px;
+}
