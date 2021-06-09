@@ -1,15 +1,17 @@
-.answer{
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-}
-.up{
-    color: cadetblue;
-}
 .containerBtn{
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 60px auto 30px auto;
+}
+.timer{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+.score{
+    font-size: 40px;
+    display: block;
+    text-align: center;
 }
