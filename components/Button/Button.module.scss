@@ -1,8 +1,12 @@
-.button{
-    display: inline-block;
-    margin: 0 auto;
-    padding: 10px 15px;
+.container{
+    text-align: center;
+}
+
+.link, .button{
+    padding: 12px 20px;
     border-radius: 5px;
     border: 1px solid black;
-    color: white;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
 }
