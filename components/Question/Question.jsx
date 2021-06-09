@@ -4,7 +4,7 @@ import styles from './Question.module.scss'
 export function Question({actor, movie}) {
     return (
         <div>
-            <p className={styles.answer}>
+            <p className={`${styles.answer} title-3`}>
                 Did &nbsp;
                 <span className={styles.up}>
                     {actor}

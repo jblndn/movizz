@@ -1,3 +1,4 @@
+@import "color";
 html,
 body {
   padding: 0;
@@ -16,7 +17,7 @@ a {
 }
 .main{
   width: 700px;
-  background-color: lightgrey;
+  background-color: $orange;
   margin: 0 auto;
   padding: 50px;
 }

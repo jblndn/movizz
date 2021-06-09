@@ -42,14 +42,14 @@ function Quiz({movies, actors}) {
 
     return (
         <div className={'main'}>
-            {timer !== 0 && <span className={styles.timer}>Time : {timer}</span>}
+            {timer !== 0 && <span className={`${styles.timer} title-4`}>Time : {timer}</span>}
             {timer !== 0 && <Question actor={actors[indexRandomActors].name} movie={movies[indexRandomMovies].original_title} />}
             {timer !== 0 && <div className={styles.containerBtn}>
                 <Image src="/remove.png" width={60} height={60} alt="" className={styles.yes} onClick={(e)=>{checkAnswer(e , false)}}/>
                 <Image src="/check.png" width={60} height={60} alt="" className={styles.no} onClick={(e)=>{checkAnswer(e , true)}}/>
             </div>}
             {timer === 0 && <h2 className={styles.over}>The quiz is over</h2>}
-            {timer === 0 && <div className={styles.score}>Your score : <span className={styles.number}>{score}</span></div>}
+            {timer === 0 && <div className={`${styles.score} title-2`}>Your score : <span className={`${styles.number} title-1`}>{score}</span></div>}
             {timer === 0 && <Button text={'Retry'} reset={reset}/>}
         </div>
     )
